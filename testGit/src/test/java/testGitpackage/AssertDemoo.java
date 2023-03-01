@@ -34,6 +34,7 @@ public class AssertDemoo {
   {
 	  String title=driver.getTitle();
 	  System.out.println(title);
+	  System.out.println("");
 	  String sampleTitle="Obsqura Testing";
 	  Assert.assertEquals(title, sampleTitle, "Title mismatch");  //hard assert
 	 
